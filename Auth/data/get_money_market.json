@@ -1,0 +1,157 @@
+{
+    "brokenData": {},
+    "data": [
+        {
+            "1 Month": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-02-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "1 Week": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-01-24T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "2 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-03-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "2 Weeks": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-01-31T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "3 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-04-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "3 Weeks": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-02-07T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "4 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-05-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "5 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-06-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "6 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-07-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "7 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-08-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "8 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-09-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "9 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-10-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "10 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-11-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "11 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-12-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "12 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2025-01-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "15 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2025-04-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "18 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2025-07-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "24 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2026-01-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "36 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2027-01-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "48 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2028-01-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "60 Months": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2029-01-10T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "O/N": {
+                "valueDate": "2024-01-15T00:00:00.000Z",
+                "maturityDate": "2024-01-16T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "S/N": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-01-18T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "T/N": {
+                "valueDate": "2024-01-16T04:42:35.540Z",
+                "maturityDate": "2024-01-17T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            },
+            "broken_date": {
+                "valueDate": "2024-01-17T04:42:35.540Z",
+                "maturityDate": "2024-01-17T00:00:00.000Z",
+                "bids": [],
+                "offers": []
+            }
+        }
+    ]
+}

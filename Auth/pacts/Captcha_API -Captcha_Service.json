@@ -1,0 +1,47 @@
+{
+  "consumer": {
+    "name": "Captcha_API "
+  },
+  "interactions": [
+    {
+      "description": "a valid token request",
+      "providerState": "a valid token state",
+      "request": {
+        "body": {
+          "token": "token"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/authapi/auth/captcha"
+      },
+      "response": {
+        "body": {
+          "data": {},
+          "message": "Authentication successful",
+          "success": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "11.0.2"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "Captcha_Service"
+  }
+}

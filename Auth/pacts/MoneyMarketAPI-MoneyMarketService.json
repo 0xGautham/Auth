@@ -1,0 +1,51 @@
+{
+  "consumer": {
+    "name": "MoneyMarketAPI"
+  },
+  "interactions": [
+    {
+      "description": "A getMoneyMarket request",
+      "providerState": "A request for money market data",
+      "request": {
+        "method": "GET",
+        "path": "/mmapi/match/get-money-market",
+        "query": "__v=1705309508877&cached=true&currency=CHF&maturityDate=2024-02-10T00%3a00%3a00%2e000Z&valueDate=2024-01-17T04%3a42%3a35%2e540Z"
+      },
+      "response": {
+        "body": {
+          "data": [
+            {
+              "1 Month": {
+                "bids": [],
+                "maturityDate": "2024-02-10T00:00:00.000Z",
+                "offers": [],
+                "valueDate": "2024-01-17T04:42:35.540Z"
+              }
+            }
+          ],
+          "message": "Request successful",
+          "success": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "11.0.2"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "MoneyMarketService"
+  }
+}

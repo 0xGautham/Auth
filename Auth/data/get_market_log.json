@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "_id": "65968f0514c8d382d30578c3",
+            "amount": 121,
+            "currency": "CHF",
+            "rate": 2,
+            "term": "O/N"
+        },
+        {
+            "_id": "65968f5914c8d382d30578c9",
+            "amount": 121,
+            "currency": "CHF",
+            "rate": 4,
+            "term": "O/N"
+        },
+        {
+            "_id": "65968fbcb80b01767a26916e",
+            "amount": 50,
+            "currency": "CHF",
+            "rate": 5,
+            "term": "O/N"
+        },
+        {
+            "_id": "65969040bff42d9452897e5c",
+            "amount": 121,
+            "currency": "CHF",
+            "rate": 6,
+            "term": "S/N"
+        },
+        {
+            "_id": "65968fd814c8d382d30578cf",
+            "amount": 44,
+            "currency": "CHF",
+            "rate": 4,
+            "term": "broken_date"
+        },
+        {
+            "_id": "65968fa214c8d382d30578cd",
+            "amount": 125,
+            "currency": "CHF",
+            "rate": 5,
+            "term": "broken_date"
+        },
+        {
+            "_id": "659693a0208c2c8707093e6b",
+            "amount": 25,
+            "currency": "CHF",
+            "rate": 45,
+            "term": "O/N"
+        },
+        {
+            "_id": "659693c1208c2c8707093e6f",
+            "amount": 25,
+            "currency": "CHF",
+            "rate": 22,
+            "term": "O/N"
+        },
+        {
+            "_id": "65969a85208c2c8707093e74",
+            "amount": 100,
+            "currency": "CHF",
+            "rate": 3,
+            "term": "O/N"
+        },
+        {
+            "_id": "659802e5208c2c8707093ea7",
+            "amount": 100,
+            "currency": "CHF",
+            "rate": 2,
+            "term": "T/N"
+        }
+    ]
+}

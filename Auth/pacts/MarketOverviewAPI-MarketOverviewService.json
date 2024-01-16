@@ -1,0 +1,49 @@
+{
+  "consumer": {
+    "name": "MarketOverviewAPI"
+  },
+  "interactions": [
+    {
+      "description": "A getMarketOverview request",
+      "providerState": "A request for MarketOverview data",
+      "request": {
+        "method": "GET",
+        "path": "/mmapi/match/get-market-overview",
+        "query": "bid=138%2e81%2e00311050100000000000050310051352undefined2234101013%2e3339999999999996450181001025599999999999100&cached=true&offer=1000000002411%2e001050"
+      },
+      "response": {
+        "body": {
+          "data": [
+            {
+              "CHF": {
+                "bid": "138.81.00311050100000000000050310051352undefined2234101013.3339999999999996450181001025599999999999100",
+                "offer": "1000000002411.001050"
+              }
+            }
+          ],
+          "message": "Request successful",
+          "success": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "11.0.2"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "MarketOverviewService"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "consumer": {
+    "name": "UserLogin"
+  },
+  "interactions": [
+    {
+      "description": "a request to authenticate a user",
+      "providerState": "a user exists with the given credentials",
+      "request": {
+        "body": {
+          "captcha": "ST:RECAPTCHA_SIG:ya3cb46ju0geta9mj5bkte",
+          "location": "application",
+          "password": "V3BhZG1pbjEyMyM=",
+          "username": "gautham1"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/authapi/auth/login"
+      },
+      "response": {
+        "body": {
+          "data": {},
+          "message": "Authentication successful",
+          "success": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "11.0.2"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "UserLoginService"
+  }
+}

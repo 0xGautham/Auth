@@ -1,0 +1,42 @@
+{
+  "consumer": {
+    "name": "Marketlog"
+  },
+  "interactions": [
+    {
+      "description": "get market logs",
+      "providerState": "Exists with the given credentials",
+      "request": {
+        "method": "GET",
+        "path": "/mm-trade-lifecycle/trades/get-market-logs",
+        "query": "_id=65968f0514c8d382d30578c3&amount=121&currency=CHF&rate=2&term=O%2fN"
+      },
+      "response": {
+        "body": {
+          "data": {},
+          "message": "Successful",
+          "success": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "11.0.2"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "MarketlogService"
+  }
+}

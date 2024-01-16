@@ -1,0 +1,53 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "performing with pact",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test:login marketlog captcha  &&  npm run test:loginservice captchaservice marketlogservice",
+    "test:login": "jest test/consumer/loginuser.spec.js",
+    "test:marketlog": "jest test/consumer/marketlog.spec.js",
+    "test:moneymarket": "jest test/consumer/moneymarket.spec.js",
+    "test:marketoverview": "jest test/consumer/marketoverview.spec.js",
+    "test:captcha": "jest test/consumer/captcha.spec.js",
+    "pact:publish": "pact-broker publish ./pacts --consumer-app-version=\"1.0.0\" --auto-detect-version-properties --broker-base-url=http://127.0.0.1:8000 --broker-username pact_workshop --broker-password pact_workshop",
+    "test:loginservice": "jest test/provider/loginservice.spec.js",
+    "test:captchaservice": "jest test/provider/captchaservice.spec.js",
+    "test:marketlogservice": "jest test/provider/marketlogservice.spec.js",
+    "test:moneymarketservice": "jest test/provider/moneymarketservice.spec.js",
+    "test:marketoverviewservice": "jest test/provider/marketoverviewservice.spec.js",
+    "can-i-deploy": "npm run can-i-deploy:login && npm run can-i-deploy:loginservice",
+    "can-i-deploy:login": "pact-broker can-i-deploy --pacticipant 'loginUser' --latest --broker-base-url=http://127.0.0.1:8000 --broker-username pact_workshop --broker-password pact_workshop",
+    "can-i-deploy:loginservice": "pact-broker can-i-deploy --pacticipant 'loginService' --latest --broker-base-url=http://127.0.0.1:8000 --broker-username pact_workshop --broker-password pact_workshop",
+    "api": "concurrently 'npm run loginservice' 'npm run login'",
+    "login": "node ./loginService.js",
+    "loginservice": "node ./loginserviceService.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "11.0.2",
+    "@pact-foundation/pact-core": "^14.0.1",
+    "absolute-version": "1.0.1",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "cli-color": "^2.0.3",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-http-proxy": "^1.6.3",
+    "jest": "^29.7.0",
+    "mocha": "^10.0.0",
+    "superagent": "^8.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.10",
+    "get-port": "^7.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "retry": "^0.13.1"
+  }
+}
